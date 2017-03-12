@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingLayout">
+        <attr name="loading_layout" format="reference" />
+        <attr name="error_layout_net_fail" format="reference" />
+        <attr name="error_layout_no_data_fail" format="reference" />
+    </declare-styleable>
+
+    <style name="LoadLayout_Button"/>
+    <style name="LoadLayout_Button.Size2">
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="LoadLayout_Button.Size2.Color1">
+        <item name="android:textColor">@drawable/text_selector_1</item>
+        <item name="android:background">@drawable/btn_bg_1</item>
+    </style>
+</resources>

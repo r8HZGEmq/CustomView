@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/titlebar_left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dp"
+        android:drawableLeft="@drawable/titlebar_back"
+        android:paddingLeft="11dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:id="@+id/titlebar_title_tv"
+        style="@style/SDKTitleBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@id/titlebar_left_tv"
+        android:paddingLeft="0dp"
+        android:text="我的"/>
+
+    <TextView
+        android:id="@+id/titlebar_right_tv"
+        style="@style/SDKTitleBar.SubTitle.Right"
+        android:text="分享"
+        android:visibility="visible"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc"/>
+
+</RelativeLayout>

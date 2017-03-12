@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <com.emo.customview.titleBar.SDKTitleBar
+        android:id="@+id/sdk_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:leftIcon="@drawable/titlebar_back"
+        app:rightLabel="分享"
+        app:rightTextColor="#999999"
+        app:title="主标题"
+        app:titleTextColor="#333333"
+        />
+
+    <com.emo.customview.loadlayout.LoadingLayout
+        android:id="@+id/loadinglayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    <!--custom:error_layout_net_fail="@layout/my_center_empty_view"
+    custom:error_layout_no_data_fail="@layout/my_center_empty_view"-->
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <!-- 剩余时间 -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剩余\n时间"
+        android:textColor="#808080"
+        android:textSize="11sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/h1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/dot_h_m"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/h2"
+            android:gravity="center"
+            android:text=":"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/m1"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dot_h_m"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/m2"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/m1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/dot_m_s"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/m2"
+            android:gravity="center"
+            android:text=":"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dot_m_s"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/s1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="22sp" />
+
+        <View
+            android:background="#f2f2f2"
+            android:layout_centerInParent="true"
+            android:layout_width="116dp"
+            android:layout_height="1dp"/>
+    </RelativeLayout>
+</LinearLayout>

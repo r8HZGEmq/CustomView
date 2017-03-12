@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- id for sdk titlebar-->
+    <item name="sdk_titlebar" type="id"/>
+    <!-- custom attributes for sdk titlebar -->
+    <attr name="title" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="leftLabel" format="string"/>
+    <attr name="leftTextColor" format="color|reference"/>
+    <attr name="leftTextSize" format="dimension"/>
+    <attr name="leftIcon" format="reference"/>
+    <attr name="leftIconSize" format="dimension"/>
+    <attr name="leftIconAlign">
+        <!-- default -->
+        <flag name="left" value="0"/>
+        <flag name="right" value="1"/>
+    </attr>
+    <attr name="rightLabel" format="string"/>
+    <attr name="rightTextColor" format="color|reference"/>
+    <attr name="rightTextSize" format="dimension"/>
+    <attr name="rightIcon" format="reference"/>
+    <attr name="rightIconSize" format="dimension"/>
+    <attr name="rightIconAlign">
+        <flag name="left" value="0"/>
+        <!-- default -->
+        <flag name="right" value="1"/>
+    </attr>
+    <!-- custom styleable for sdk titlebar -->
+    <declare-styleable name="SDKTitleBar">
+        <attr name="title"/>
+        <attr name="titleTextColor"/>
+        <attr name="leftLabel"/>
+        <attr name="leftTextColor"/>
+        <attr name="leftTextSize"/>
+        <attr name="leftIcon"/>
+        <attr name="leftIconSize"/>
+        <attr name="leftIconAlign"/>
+        <attr name="rightLabel"/>
+        <attr name="rightTextColor"/>
+        <attr name="rightTextSize"/>
+        <attr name="rightIcon"/>
+        <attr name="rightIconSize"/>
+        <attr name="rightIconAlign"/>
+    </declare-styleable>
+
+</resources>
